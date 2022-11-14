@@ -1,0 +1,18 @@
+$base-font-size: 16px;
+
+$primary-font-color: #292929;
+$secondary-font-color: #925FF0;
+$third-font-color: #FFF;
+$additional-font-color: #464646;
+
+$primary-color: #F4EFFE;
+$secondary-color: #A87FF3;
+$third-color: #292929;
+$fourth-color: #E9DFFC;
+
+$imgs-path: '../images';
+
+html, body {
+    font-size: $base-font-size;
+    background-color: $primary-color;
+}
