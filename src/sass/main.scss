@@ -2,3 +2,7 @@
 @import "variables";
 @import "helpers";
 
+html, body {
+    font-size: $base-font-size;
+    background-color: $primary-color;
+}
