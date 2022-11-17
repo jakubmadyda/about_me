@@ -1,2 +1,52 @@
 @import "helpers";
 @import "variables";
+
+
+header {
+}
+
+footer {
+    background-color: $third-color;
+}
+
+header nav {
+    border-bottom: 2px solid #784DC7;
+}
+
+.nav-bar {
+    height: toRem(120px);
+    margin-inline: auto;
+    width: min(95%, toRem(1728px));
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-header {
+    width: toRem(258px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-footer {
+    width: toRem(295px);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-block: toRem(45px);
+}
+
+.logo {
+    width: 73px;
+    height: 27px;
+    align-self: center;
+}
+
+.contact {
+    background-color: $fourth-color;
+    border-radius: 4px;
+    border: none;
+    width: 133px;
+    height: 40px;
+    align-self: center;
+}
