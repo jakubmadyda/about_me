@@ -1,8 +1,13 @@
 @import "normalize";
 @import "variables";
 @import "helpers";
+@import "fonts";
 
-html, body {
+body {
     font-size: $base-font-size;
     background-color: $primary-color;
+}
+
+* {
+    box-sizing: border-box;
 }

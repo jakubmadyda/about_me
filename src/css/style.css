@@ -307,9 +307,67 @@ template {
   display: none;
 }
 
-html, body {
+h1,
+h2,
+h3 {
+  font-family: "Anton", sans-serif;
+  line-height: 100%;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 12.5rem;
+  color: #925FF0;
+  opacity: 0.9;
+}
+
+h2 {
+  font-size: 4rem;
+  color: #292929;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 36px;
+  color: #464646;
+}
+
+.container h2 {
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: #292929;
+  line-height: 100%;
+  font-family: sans-serif;
+}
+
+.contact {
+  color: #925FF0;
+  line-height: 100%;
+  font-family: sans-serif;
+  letter-spacing: -0.05em;
+}
+
+p {
+  font-size: 1rem;
+  letter-spacing: -0.05em;
+  line-height: 100%;
+  font-weight: 400;
+  color: #292929;
+}
+
+body {
   font-size: 16px;
   background-color: #F4EFFE;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+@import "variables";
+@import "helpers";
+
+h1,
+h2,
+h3 {
+    font-family: 'Anton', sans-serif;
+    line-height: 100%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: toRem(200px);
+    color: $secondary-font-color;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: toRem(64px);
+    color: $primary-font-color;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 36px;
+    color: $additional-font-color;
+}
+
+
+
+.container h2 {
+    color: $third-font-color;
+}
+
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: $primary-font-color;
+    line-height: 100%;
+    font-family: sans-serif;
+}
+
+.contact {
+    color: $secondary-font-color;
+    line-height: 100%;
+    font-family: sans-serif;
+    letter-spacing: -0.05em;
+}
+
+p {
+    font-size: toRem(16px);
+    letter-spacing: -0.05em;
+    line-height: 100%;
+    font-weight: 400;
+    color: $primary-font-color;
+}
