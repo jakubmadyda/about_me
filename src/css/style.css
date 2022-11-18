@@ -314,18 +314,19 @@ h3 {
   line-height: 100%;
   font-weight: 400;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 h1 {
   font-size: 12.5rem;
   color: #925FF0;
   opacity: 0.9;
+  margin: 239px auto 0;
 }
 
 h2 {
   font-size: 4rem;
   color: #292929;
-  text-transform: uppercase;
 }
 
 h3 {
@@ -368,7 +369,7 @@ footer {
 }
 
 header nav {
-  border-bottom: 2px solid #784DC7;
+  border-bottom: 1px solid #784DC7;
 }
 
 .nav-bar {
@@ -407,6 +408,36 @@ header nav {
   width: 133px;
   height: 40px;
   align-self: center;
+}
+
+.header-intro {
+  border-bottom: 1px solid #292929;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: min(100%, 108rem);
+  margin-inline: auto;
+  background-image: url("../images/vintage1.png"), url("../images/vintage2.png");
+  background-position: left bottom, right bottom;
+  background-repeat: no-repeat;
+  height: 62.3125rem;
+}
+
+@media only screen and (max-width: 1200px), (min-width: 1728px) {
+  .intro {
+    background-image: none;
+  }
+}
+.nav-arrow {
+  margin-bottom: 1.875rem;
+}
+
+section:last-of-type {
+  border-top: 1px solid #292929;
 }
 
 body {
