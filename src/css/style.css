@@ -436,6 +436,25 @@ header nav {
   margin-bottom: 1.875rem;
 }
 
+.about_me {
+  display: flex;
+  width: min(95%, 108rem);
+  margin-inline: auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  width: 625px;
+}
+
+section:first-of-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 section:last-of-type {
   border-top: 1px solid #292929;
 }

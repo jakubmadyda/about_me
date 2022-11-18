@@ -29,6 +29,25 @@
     margin-bottom: toRem(30px);
 }
 
+.about_me {
+    display: flex;
+    width: min(95%, toRem(1728px));
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content {
+    width: 625px;
+}
+
+section:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 section:last-of-type {
     border-top: 1px solid $third-color
 }
